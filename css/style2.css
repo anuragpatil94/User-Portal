@@ -1,0 +1,256 @@
+
+body {
+
+    font-family: sans-serif;
+    background-color: #FFFFFF;
+}
+
+.header{
+
+    background: lightgrey;
+    height: 80px;
+}
+.header h1{
+    margin-left: 1%;
+    padding-top: 20px;
+    width: auto    ;
+}
+#refresh_btn{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    line-height: 20px;
+    padding: 30px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    float:right;
+    cursor: pointer;
+}
+#logout_btn{
+    background-color: #af3114; /* Green */
+    border: none;
+    color: white;
+
+    line-height: 20px;
+    padding: 30px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    float:right;
+    cursor: pointer;
+}
+#offline_btn{
+    background-color: #af3114; /* Green */
+    border: none;
+    color: white;
+
+    padding:2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    float:right;
+    cursor: pointer;
+}
+#home_container {
+
+}
+/*input fields*/
+
+
+
+
+
+
+
+
+
+/************************************************************************* TAB Styles **/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+input[type=radio] {
+    position: absolute;
+    left: -9999px;
+    top: -9999px;
+}
+
+.tabs {
+
+}
+
+.tabs label {
+    display: inline-block;
+    vertical-align: bottom;
+    margin-right: 4px;
+
+    margin-bottom: -1px;
+    margin-left: -1px;
+    background: #EEE;
+    width: 100px; /*change this for tabsize*/
+    padding: 12px 24px;
+    border: solid 1px #DDD;
+    border-radius: 5px 5px 0 0;
+    cursor: pointer;
+
+    text-transform: uppercase;
+    font-size: 11px;
+    letter-spacing: 1px;
+    box-shadow: 0 -1px 6px rgba(0, 0, 0, 0.1) inset;
+    color: #666;
+}
+
+.tabs label:first-child {
+    margin-left: 0;
+}
+
+.tabs label:hover {
+    background-color: #ff8d08;
+}
+
+input:nth-child(1):checked ~ .tabs label:nth-child(1),
+input:nth-child(2):checked ~ .tabs label:nth-child(2),
+input:nth-child(3):checked ~ .tabs label:nth-child(3),
+input:nth-child(4):checked ~ .tabs label:nth-child(4) {
+    padding: 14px 24px;
+    border-bottom-color: #FFF;
+    background: #FFF;
+    box-shadow: none;
+    color: #000;
+}
+
+.sections {
+
+}
+
+.sections li {
+    display: none;
+
+    padding: 1em;
+    border: solid 1px #DDD;
+    border-radius: 5px;
+    background-color: #FFF;
+    box-shadow: 1px 1px 20px rgba(255, 255, 255, 0.4);
+}
+
+input:nth-child(1):checked ~ .sections li:nth-child(1),
+input:nth-child(2):checked ~ .sections li:nth-child(2),
+input:nth-child(3):checked ~ .sections li:nth-child(3),
+input:nth-child(4):checked ~ .sections li:nth-child(4) {
+    display: block;
+}
+
+/************************************************************************* Table Styles **/
+
+.table-fill {
+    background: white;
+    border-radius: 3px;
+    border-collapse: collapse;
+    height: 32px;
+    margin: auto;
+    max-width: 600px;
+    padding: 5px;
+    width: auto;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    animation: float 5s infinite;
+}
+
+th {
+    color: #D5DDE5;;
+    background: #1b1e24;
+    border-bottom: 4px solid #9ea7af;
+    border-right: 1px solid #343a45;
+    font-size: 23px;
+    font-weight: 100;
+    padding: 24px;
+    text-align: left;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    vertical-align: middle;
+}
+
+th:first-child {
+    border-top-left-radius: 3px;
+}
+
+th:last-child {
+    border-top-right-radius: 3px;
+    border-right: none;
+}
+
+tr {
+    border-top: 1px solid #C1C3D1;
+    border-bottom-: 1px solid #C1C3D1;
+    color: #666B85;
+    font-size: 16px;
+    font-weight: normal;
+    text-shadow: 0 1px 1px rgba(256, 256, 256, 0.1);
+}
+
+tr:first-child {
+    border-top: none;
+}
+
+tr:last-child {
+    border-bottom: none;
+}
+
+tr:nth-child(odd)  {
+    background: #EBEBEB;
+}
+
+tr:last-child td:first-child {
+    border-bottom-left-radius: 3px;
+}
+
+tr:last-child td:last-child {
+    border-bottom-right-radius: 3px;
+}
+
+td {
+    background: #FFFFFF;
+    padding: 20px;
+    text-align: left;
+    vertical-align: middle;
+    font-weight: 300;
+    font-size: 18px;
+    text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
+    border-right: 1px solid #C1C3D1;
+}
+
+td:last-child {
+    border-right: 0px;
+}
+
+th.text-left {
+    text-align: left;
+}
+
+th.text-center {
+    text-align: center;
+}
+
+th.text-right {
+    text-align: right;
+}
+
+td.text-left {
+    text-align: left;
+}
+
+td.text-center {
+    text-align: center;
+}
+
+td.text-right {
+    text-align: right;
+}
+

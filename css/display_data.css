@@ -1,0 +1,133 @@
+
+.input {
+    min-height: 37px;
+    max-height: 37px;
+    height: 10%;
+    width: 80%;
+    border-radius: 3px;
+    border: rgba(0, 0, 0, .3) 2px solid;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-bottom: 1%;
+}
+.button{
+
+}
+
+#university_view .input,#employment_research_view .input{
+    min-height: 37px;
+    height: 10%;
+    width: 10%;
+    border-radius: 3px;
+    border: rgba(0, 0, 0, .3) 2px solid;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-bottom: 1%;
+}
+#university_view .input:first-child,#employment_research_view .input:first-child{
+    width: 30%;
+}
+#university_view .input:nth-child(4),#employment_research_view .input:nth-child(2){
+    width: 25%;
+}
+hr{
+    margin-top: -0.7%;
+    margin-bottom: 0.3%;
+}
+#university_view hr{
+    width: 81%;
+}
+#employment_research_view hr{
+    width: 81%;
+}
+.d_add{
+    width:5%;
+    min-width: 37px;
+    min-height: 37px;
+    height: 10%;
+    border-radius: 3px;
+    border: rgba(0, 0, 0, .3) 2px solid;
+    cursor: pointer;
+}
+#submit{
+    background-color: #99af18; /* Green */
+    border: none;
+    color: white;
+
+    left:0;
+    right: 0;
+    margin-left: 45%;
+    line-height: 20px;
+    padding: 25px 25px;
+    text-align: center;
+    text-decoration: none;
+
+    font-size: 25px;
+    cursor: pointer;
+}
+
+#main_view{
+    margin:10px;
+
+    height:100%;
+    border: 2px  white  solid;
+}
+
+#personal_view{
+    box-sizing: border-box;
+    width: 25%;
+    height:200px;
+
+    padding: 1%;
+    background: #ff8d08;
+    border: 2px  white  solid;
+    float: left;
+}
+#address_view{
+    box-sizing: border-box;
+    width: 50%;
+    height:200px;
+
+    padding: 1%;
+    background: #ff8d08;
+    border: 2px  white  solid;
+    float: left;
+}
+#contact_view{
+    box-sizing: border-box;
+    width: 25%;
+    height:200px;
+    padding: 1%;
+    background: #ff8d08;
+    border: 2px  white  solid;
+    float: right;
+}
+#university_view{
+    box-sizing: border-box;
+    width: 100%;
+    height:200px;
+    background: #ff8d08;
+    padding: 1%;
+    border: 2px  white  solid;
+    float: none;
+    clear: right;
+}
+#ll{
+    box-sizing: border-box;
+    padding: 25px;
+    border-right: solid darkgrey 2px;
+    line-height: 30px;
+    float: left;
+}
+#employment_research_view{
+    width: 100%;
+    height:200px;
+    padding: 1%;
+    box-sizing: border-box;
+    background: #ff5d10;
+
+    border: 2px  white  solid;
+    float: right;
+    clear: left;
+}
+

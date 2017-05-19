@@ -1,0 +1,107 @@
+body {
+
+ background: #FF8C00;
+
+}
+
+/*FONT*/
+h1 {
+    font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+    font-size: 24px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    line-height: 26.4px;
+}
+h3 {
+    font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+    font-size: 14px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    line-height: 15.4px;
+}
+p {
+    font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+    font-size: 14px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+blockquote {
+    font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+    font-size: 21px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+pre {
+    font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+    font-size: 13px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 18.5714px;
+}
+
+
+/*FONT END*/
+h3 {
+    color: white;
+}
+
+#container {
+    background-color: black;
+    opacity: 0.75; /* I added this*/
+
+    padding-right: 20px;
+    padding-left: 20px;
+    width: 35%;
+    /*to make box in center*/
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 10px 10px rgba(10, 10, 10, 0.6);
+    text-align: center;
+}
+
+#container .myform {
+    width: 100%;
+    margin: 0 auto;
+}
+
+#container .input {
+    height: 10%;
+    width: 80%;
+    border-radius: 3px;
+    border: rgba(0, 0, 0, .3) 2px solid;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-bottom: 5%;
+}
+
+#container .button {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    border: rgba(0, 0, 0, .3) 0px solid;
+    box-sizing: border-box;     /*SO that padding and margin will not increase the actual size of the field*/
+    padding: 10px;
+    margin-bottom: 5%;
+    background: #90c843;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 12pt;
+    transition: background .4s;
+    cursor: pointer;
+}
+
+#container .button {
+    background: #74d600;
+}
+
+<!-- HOME -->
